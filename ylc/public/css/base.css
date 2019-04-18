@@ -8,13 +8,14 @@
         font-weight:normal;
         font-style:normal;
       }
+
       a {
         text-decoration: none;
         color:#000;
       }
       a:hover{
         text-decoration: none ;
-        color:#000
+        color:#000;
       }
       button {
         cursor: pointer;

@@ -126,38 +126,47 @@
         </div>
       </div>
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><img class="banner-img" src="img/index/5a1e0c450cc40.jpg"></div>
-        <div class="swiper-slide"><img class="banner-img" src="img/index/5bd7f38640be3 (1).jpg"></div>
-        <div class="swiper-slide"><img class="banner-img" src="img/index/5bd7f38640be3.jpg"></div>
+        <div class="swiper-slide "><li class="add1"></li> </div>
+        <div class="swiper-slide "><li class="add2"></li> </div>
+        <div class="swiper-slide "><li class="add3"></li> </div>
       </div>
       <!-- swiper  -->
       <div class="swiper-pagination"></div>
     </div>
   </div>
   <!-------主内容 article-------->
+  <div class="index-body">
   <article class="contain">
     <aside>
       <!-- 风向标 -->
       <h2><a href="#">当季最热 <i></i></a></h2>
       <!-- 广告位 -->
       <ul class="lvcheng f-cb">
-        <li></li>
-        <li></li>
-        <li></li>
+        <li><a href="#"><img src="img/index/57ce3d81e2d73.jpg"> </a></li>
+        <li><a href="#"><img src="img/index/58295ad926c81.jpg"> </a></li>
+        <li><a href="#"><img src="img/index/5b7f770ab3fbf.jpg"> </a></li>
       </ul>
-      <div></div>
+      <div><a href="#"><img src="img/index/596eb127bb23a.jpg"></a></div>
     </aside>
+    <section>
+      <h2><a href="#">出境游<i></i></a></h2>
+      <hgroup>
+        
+      </hgroup>
+    </section>
   </article>
+  </div>
   <!-- 尾部文件的引入 -->
   <footer id="footer" class=""></footer>
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper-container', {
-      delay: 1000, //1秒切换一次
+      delay: 3000, //1秒切换一次
       autoplay: true,
       loop: true,
       pagination: {
         el: '.swiper-pagination',
+        clickable :true,
       },
     });
   </script>
