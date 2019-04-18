@@ -117,10 +117,11 @@ body .banner-nav{
 /*----------- 主内容 --------- */
 .index-body{
   background-color:#f6f6f6;
+  
 }
  
 .contain{
-  max-width:1150px;
+  width: 1150px;
   margin:15px auto;
 }
 
@@ -161,4 +162,53 @@ body .banner-nav{
 .contain .f-cb li img {
   width: 373px;
   height: 239px;
+}
+.contain hgroup {
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+.contain .hgr01 .onwidth {
+  width: 762px;
+ position: relative;
+}
+.contain .hgr01 .onwidth img{
+  width:762px;
+  height:239px;
+}
+.haid dt i, .aifei dt i, .hgr01 dt i, .hgr02 dt i, .prong_u div i {
+  position: absolute;
+  left: 0;
+  top: -6px;
+  z-index: 300;
+  width: 71px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  padding-right: 7px;
+  background: url(../img/index/title_background.png) no-repeat;
+}
+.hgr01 dt em, .hgr02 dt em, .hgr03 dt em {
+  display: block;
+  width: 57px;
+  height: 58px;
+  background: url(../img/index/pic55.png);
+  position: absolute;
+  top: -1px;
+  right: -1px;
+}
+.hgr01 dd, .hgr02 dd {
+  height: 153px;
+  background-color: #fff;
+  padding: 0 5px;
+}
+.hgr01 dd h3, .hgr02 dd h3 {
+  height: 50px;
+  line-height: 25px;
+  padding-top: 5px;
+  text-align: left;
+  font-weight: bold;
 }
