@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  <script src="js/jquery-3.2.1.js"></script>
+  <!-- <script src="js/bootstrap.js"></script> -->
+  <script src="js/swiper.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 头部文件的引入 -->
+  <header id="header" class=""></header>
+  <div id="index-banner">
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <!-- 轮播导航 -->
+      <div class="banner-nav">
+        <div class="banner-add1">
+          <dl>
+            <dt class="icon01">出发地</dt>
+            <dd>
+              <a href="#">温州</a>
+              <a href="#" class="click-y">杭州</a>
+              <a href="#" class="click-y">上海</a>
+              <a href="#">宁波</a>
+              <a href="#">香港</a>
+            </dd>
+            <dt class="icon02"><a href="#">海岛</a></dt>
+            <dd>
+              <a href="#">长滩</a>
+              <a href="#" class="click-y">普吉</a>
+              <a href="#">沙巴</a>
+              <a href="#" class="click-y">巴厘岛</a>
+              <a href="#">马尔代夫</a>
+              <a href="#" class="click-y">芽庄</a>
+            </dd>
+            <dt class="icon03"><a href="#">游轮</a></dt>
+            <dd>
+              <a href="#" class="click-y">喜悦号</a>
+              <a href="#">盛世公主号</a>
+              <a href="#" class="click-y">水手号</a>
+            </dd>
+            <dt class="icon04"><a href="#">出境</a></dt>
+            <dd>
+              <a href="#">港澳台</a>
+              <a href="#" class="click-y">泰国</a>
+              <a href="#" class="click-y">越南</a>
+              <a href="#" class="click-y">日本</a>
+              <a href="#">澳新</a>
+              <a href="#">欧洲</a>
+              <a href="#">美国</a>
+            </dd>
+            <dt class="icon05"><a href="#">周边</a></dt>
+            <dd>
+              <a href="#">别墅</a>
+              <a href="#" class="click-y">漂流</a>
+              <a href="#">古镇</a>
+              <a href="#" class="click-y">乐园</a>
+              <a href="#" class="click-y">海边</a>
+            </dd>
+            <dt class="icon06"><a href="#">国内</a></dt>
+            <dd>
+              <a href="#">丽江</a>
+              <a href="#" class="click-y">三亚</a>
+              <a href="#">内蒙</a>
+              <a href="#" class="click-y">长隆</a>
+              <a href="#">新疆</a>
+              <a href="#" class="click-y">亲子</a>
+            </dd>
+          </dl>
+        </div>
+        <div class="banner-add2">
+          <ul>
+            <li>
+              <p class="f1"><img src="img/index/earth.png"></p>
+              <dl class="f1">
+              <dt >当季最热 
+                <dd>
+                  引领最新旅游风尚
+                </dd>
+              </dt>
+            </dl>
+            </li>
+            <li>
+                <p class="f1"><img src="img/index/ship.png"></p>
+                <dl class="f1">
+                <dt >旅游精选 
+                  <dd>
+                      旅游专家精挑细选
+                  </dd>
+                </dt>
+              </dl>
+              </li>
+              <li>
+                  <p class="f1"><img src="img/index/fly.png"></p>
+                  <dl class="f1">
+                  <dt>简单选择 
+                    <dd>
+                        同一目的地最高性价比
+                    </dd>
+                  </dt>
+                </dl>
+                </li>
+                <li>
+                    <p class="f1"><img src="img/index/money.png"></p>
+                    <dl class="f1">
+                    <dt>明白消费 
+                      <dd>
+                          曝光旅游中所有陷阱
+                      </dd>
+                    </dt>
+                  </dl>
+                  </li>
+          </ul>
+        </div>
+      </div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img class="banner-img" src="img/index/5a1e0c450cc40.jpg"></div>
+        <div class="swiper-slide"><img class="banner-img" src="img/index/5bd7f38640be3 (1).jpg"></div>
+        <div class="swiper-slide"><img class="banner-img" src="img/index/5bd7f38640be3.jpg"></div>
+      </div>
+      <!-- swiper  -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <!-------主内容 article-------->
+  <article class="contain">
+    <aside>
+      <!-- 风向标 -->
+      <h2><a href="#">当季最热 <i></i></a></h2>
+      <!-- 广告位 -->
+      <ul class="lvcheng f-cb">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div></div>
+    </aside>
+  </article>
+  <!-- 尾部文件的引入 -->
+  <footer id="footer" class=""></footer>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      delay: 1000, //1秒切换一次
+      autoplay: true,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+
+</html>

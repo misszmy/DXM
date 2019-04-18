@@ -1,0 +1,80 @@
+/* 顶部登陆注册行*/
+#app-header nav,#app-headereader header,#app-header article{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+#app-header header{
+  background-color: #f4f4f4;
+  height: 35px;
+  line-height: 35px;
+  overflow: hidden;
+  border-bottom: #f0f0f0 solid 1px;
+  min-width: 1150px;
+}
+#app-header header dl{
+ width:1150px;
+  display: flex;
+  justify-content: space-between
+}
+#app-header header dl a:hover{color: #9d3ebd;}
+#app-header header>dl a, header>dl dt span{ 
+  margin:10px;
+  font-size: 0.7rem;
+}
+#app-header>dl dt a{color: #9d3ebd;}
+
+#app-header article{
+  width:1150px;;
+  padding: 10px 0;
+  height: 92px;
+  display: flex;
+  justify-content: space-around;
+}
+#app-header article form input:first-child{
+  width:400px; height: 36px;
+  padding-left:30px;
+  color:reb(204,204,204);
+  
+}
+#app-header article form{
+  display: inline-block;
+  border:2px solid #9d3ebd;
+ 
+}
+#app-header article form input:last-child{
+  width:106px;height: 36px;
+  background-color:  #9d3ebd;
+}
+#app-headerer article>div{
+  padding: 10px;
+}
+#app-header article div:last-child{
+  width: 540px;
+  height: 23px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+#app-header article div:last-child a{
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+/* 导航栏 */
+#app-header nav{background-color: #672E7E;}
+#app-header nav>ul{
+  min-width:1150px;
+  display: flex;
+  text-align: center;
+}
+#app-header nav ul li a{
+ display: block;
+ width:164px;height:54px;
+ color:#fff;
+ line-height: 54px;
+ 
+}
+#app-header nav ul li a:hover{
+ background-color: #601479;
+ text-decoration: none;
+}
