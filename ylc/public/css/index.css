@@ -117,7 +117,7 @@ body .banner-nav{
 /*----------- 主内容 --------- */
 .index-body{
   background-color:#f6f6f6;
-  
+  height: 100%;
 }
  
 .contain{
@@ -150,7 +150,6 @@ body .banner-nav{
 }
 .contain .f-cb{
   padding: 15px 0;
-  overflow: hidden;
 }
 .contain .f-cb li {
   float: left;
@@ -171,12 +170,13 @@ body .banner-nav{
 .contain .hgr01 .onwidth {
   width: 762px;
  position: relative;
+ float: left;
 }
 .contain .hgr01 .onwidth img{
   width:762px;
   height:239px;
 }
-.haid dt i, .aifei dt i, .hgr01 dt i, .hgr02 dt i, .prong_u div i {
+.haid dt i, .aifei dt i, .hgr01 dt i, .hgr02 dt i, .prong_u div i{
   position: absolute;
   left: 0;
   top: -6px;
@@ -209,6 +209,136 @@ body .banner-nav{
   height: 50px;
   line-height: 25px;
   padding-top: 5px;
-  text-align: left;
+  text-align: left; 
   font-weight: bold;
+}
+.index-body a{
+ color:#555;
+ font-weight: bold; 
+}
+.index-body a:hover{
+    color: #9d3ebd;
+}
+.bian {
+  height: 30px;
+  line-height: 30px;
+  padding-top: 10px;
+  color: #888;
+  font-size:12px;
+}
+.bian li {
+  float: left;
+  min-width: 105px;
+  
+}
+.bian li.day {
+  text-align: right;
+  float: right;
+}
+.bian li.send {
+  padding-left: 10px;
+
+}
+.money_01 {
+  float: left;
+  font-size:12px;
+  color: #888;
+}
+.money_02 {
+  float: right;
+  padding-top: 8px;
+  width: 108px;
+  font-size:12px;
+}
+.money_01 span {
+  color: #ff924c;
+}
+.money_01 strong {
+  font-size: 20px;
+  color: #ff924c;
+  font-weight: normal;
+}
+.money_01 strong {
+  font-size: 20px;
+  color: #ff924c;
+  font-weight: normal;
+}
+.money_02 a.shouy {
+  background-color: #cbcbcb;
+  cursor: not-allowed;
+  -webkit-box-shadow: 1px 2px 3px rgba(224,224,224,.5);
+  -moz-box-shadow: 1px 2px 3px rgba(224,224,224,.5);
+  -ms-box-shadow: 1px 2px 3px rgba(224,224,224,.5);
+  box-shadow: 1px 2px 3px rgba(224,224,224,.5);
+}
+.money_02 a {
+  /* width: 103px; */
+  /* height: 38px; */
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #a05cbc;
+  -webkit-box-shadow: 1px 2px 3px rgba(178,178,178,.75);
+  -moz-box-shadow: 1px 2px 3px rgba(178,178,178,.75);
+  -ms-box-shadow: 1px 2px 3px rgba(178,178,178,.75);
+  box-shadow: 1px 2px 3px rgba(178,178,178,.75);
+  color: #fff;
+  display: block;
+  transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+}
+.money_02 a:hover{
+  color:#fff;
+}
+
+.contain .tuwidth  img , hgroup img {
+  height: 239px;
+  width:100%;
+}
+
+.contain .hgr01 .tuwidth {
+ position: relative;
+ width: 373px;
+ margin-right: 0px; 
+  float: right;
+}
+.hgr01 dl{
+  padding-bottom: 15px;
+    
+}
+
+.second dl, .third dl {
+  float: left;
+  width: 373px;
+  margin-right: 15px;
+}
+.hgr01 dl{
+  position: relative;
+  height:392px;
+  width:373px;
+  padding-bottom: 15px !important;
+}
+.fd{
+  float: left;
+  margin-right: 15px;
+}
+hgroup :last-child {
+  margin:0;
+}
+.hgr02 dl img{
+  height:648px;
+}
+.hgr02 dl{
+  position: relative;
+  width:373px;
+}
+.hgr03 {
+  margin-right: 0;
+  float: right;
+}
+.banner {
+  height: 123px;
 }

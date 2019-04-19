@@ -20,3 +20,7 @@
       button {
         cursor: pointer;
       }
+      img {
+        border: 0px;
+        max-width: 100%;
+    }
