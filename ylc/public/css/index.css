@@ -5,6 +5,9 @@ body .banner-nav{
   margin:0 auto;
   z-index: 2;
 }
+body  h2 a:hover{
+  color:#ff8a00 !important;
+}
 .swiper-wrapper .add1{
   background: url(../img/index/5a1e0c450cc40.jpg) center top no-repeat;
   width: 100%;
